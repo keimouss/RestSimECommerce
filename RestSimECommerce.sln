@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestSimECommerce.Web", "RestSimECommerce.Web\RestSimECommerce.Web.csproj", "{A4AA1A0F-0076-4F12-911A-6138770482B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestSimECommerce", "RestSimECommerce\RestSimECommerce.csproj", "{F3ECF51E-E205-4728-A742-296DED6430E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestSimECommerce.Infrastructure", "RestSimECommerce.Infrastructure\RestSimECommerce.Infrastructure.csproj", "{53D1739B-FC77-46A0-B03F-0BDA82ADE637}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestSimECommerce.Application", "RestSimECommerce.Application\RestSimECommerce.Application.csproj", "{4B7096A8-E833-4792-B1A4-FD4BFBD2ACA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{A4AA1A0F-0076-4F12-911A-6138770482B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4AA1A0F-0076-4F12-911A-6138770482B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4AA1A0F-0076-4F12-911A-6138770482B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3ECF51E-E205-4728-A742-296DED6430E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3ECF51E-E205-4728-A742-296DED6430E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3ECF51E-E205-4728-A742-296DED6430E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3ECF51E-E205-4728-A742-296DED6430E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D1739B-FC77-46A0-B03F-0BDA82ADE637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D1739B-FC77-46A0-B03F-0BDA82ADE637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D1739B-FC77-46A0-B03F-0BDA82ADE637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D1739B-FC77-46A0-B03F-0BDA82ADE637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B7096A8-E833-4792-B1A4-FD4BFBD2ACA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B7096A8-E833-4792-B1A4-FD4BFBD2ACA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B7096A8-E833-4792-B1A4-FD4BFBD2ACA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B7096A8-E833-4792-B1A4-FD4BFBD2ACA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

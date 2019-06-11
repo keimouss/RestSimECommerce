@@ -1,0 +1,6 @@
+﻿INSERT [dbo].[Customer_CustomerRole_Mapping] ([Customer_Id], [CustomerRole_Id]) VALUES (1, 1)
+INSERT [dbo].[Customer_CustomerRole_Mapping] ([Customer_Id], [CustomerRole_Id]) VALUES (1, 2)
+INSERT [dbo].[Customer_CustomerRole_Mapping] ([Customer_Id], [CustomerRole_Id]) VALUES (1, 3)
+INSERT [dbo].[Customer_CustomerRole_Mapping] ([Customer_Id], [CustomerRole_Id]) VALUES (2, 4)
+INSERT [dbo].[Customer_CustomerRole_Mapping] ([Customer_Id], [CustomerRole_Id]) VALUES (3, 4)
+INSERT [dbo].[Customer_CustomerRole_Mapping] ([Customer_Id], [CustomerRole_Id]) VALUES (4, 4)

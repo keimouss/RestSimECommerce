@@ -1,0 +1,21 @@
+﻿@using RestSimECommerce.Entities
+@model IEnumerable<RestSimECommerce.Entities.Category>
+
+
+                <ul class="nav navbar-nav flex-grow-1" data-hover="dropdown">
+                    @foreach (Category parentcategorie in Model)
+                    {
+                        <li class="nav-item dropdown">
+                            <div class="ui-btns btn-group" name="@parentcategorie.Name" data-idparentcategorie="@parentcategorie.Id" data-IdPicture="@parentcategorie.PictureId">
+                                <a class="ui-btn1 nav-link text-dark" data-toggle="dropdown" name="@parentcategorie.Name" data-idparentcategorie="@parentcategorie.Id" href="#">
+                                    @parentcategorie.Name
+                                </a>
+                                <div class="dropdown-menu" id="dropdown-@parentcategorie.Id">
+                                    <div class="table-hover"></div>
+                                </div>
+                                <div class="sublist-toggle"></div>
+                            </div>
+                        </li>
+                    }
+                </ul>
+                @*<div class="menu-toggle"></div>*@

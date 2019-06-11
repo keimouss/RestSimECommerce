@@ -1,0 +1,28 @@
+﻿@model IEnumerable<RestSimECommerce.Entities.Category>
+<div class="row Catalog-category-grid">
+    @foreach (var iCategorie in Model)
+    {
+        <!--On fait une iteration les catégories-->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="item-box">
+                <div class="category-item" id="@iCategorie.Id">
+
+                    <h2 class="title">
+                        <a href="/home/SousCategory/@iCategorie.Id" title="Show products in category @iCategorie.Name">
+                            @iCategorie.Name
+                        </a>
+                    </h2>
+                    <div class="picture-box">
+                        <a href="#" title="Show products in category @iCategorie.Name">
+                            <img class="cat-picture" alt="Picture for category /@iCategorie.Name" src="ImageProducts/ViewImage/@iCategorie.PictureId" title="Show products in category /@iCategorie.Name">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    }
+
+</div>
+<script src="~/js/AjaxPaniert.js"></script>
